@@ -1,8 +1,9 @@
 from setuptools import find_packages, setup
+from typing import List
 
 hyphen_e_dot = "-e ."
 
-def get_requirements(file_path: str) -> list:
+def get_requirements(file_path:str) -> list:
     '''
     This function will return the list of requirements.
     '''
@@ -21,7 +22,7 @@ setup(
     version='0.0.1',
     author='Harrish',
     author_email='karthiharrish05@gmail.com',
-    description='Your project description here',
+    description='firzt project',
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
 )
